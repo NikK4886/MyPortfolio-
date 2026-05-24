@@ -5,7 +5,7 @@ function Navbar() {
     <header className="nav">
       <div className="nav-inner">
 
-        <Link to="/" className="brand">
+        <Link to="/MyPortfolio-/" className="brand">
           <span>NIKOLAS KAERN</span>
         </Link>
 
@@ -25,15 +25,15 @@ function Navbar() {
           </li>
 
           <li>
-            <Link to="/resume">Resume</Link>
+            <Link to="/MyPortfolio-/resume">Resume</Link>
           </li>
 
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/MyPortfolio-/about">About</Link>
           </li>
 
           <li>
-            <Link to="/contact">Contact</Link>
+            <Link to="/MyPortfolio-/contact">Contact</Link>
           </li>
         </ul>
 
