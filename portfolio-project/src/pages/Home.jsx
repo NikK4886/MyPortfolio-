@@ -1,14 +1,15 @@
 import { useState } from 'react'
 import Navbar from '../componets/Navbar';
+import { Link } from "react-router-dom";
 
 function App() {
   const [count, setCount] = useState(0)
 
   const boxes = [
-    { title: "HTML", color: "#e34c26" },
-    { title: "CSS", color: "#264de4" },
-    { title: "JavaScript", color: "#f0db4f" },
-    { title: "React", color: "#61fb9c" },
+    { title: "Design 1: Coming Soon", color: "#e34c26" },
+    { title: "Design 2: Coming Soon", color: "#264de4" },
+    { title: "Design 3: Coming Soon", color: "#f0db4f" },
+    { title: "Design 4: Coming Soon", color: "#61fb9c" },
   ];
 
   return (
