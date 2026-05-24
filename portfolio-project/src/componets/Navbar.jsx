@@ -21,7 +21,7 @@ function Navbar() {
 
         <ul className="menu">
           <li>
-            <Link to="/">Works</Link>
+            <Link to="/MyPortfolio-/">Works</Link>
           </li>
 
           <li>
