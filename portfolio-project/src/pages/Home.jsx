@@ -6,10 +6,10 @@ function App() {
   const [count, setCount] = useState(0)
 
   const boxes = [
-    { title: "Design 1: Coming Soon", color: "#e34c26" },
-    { title: "Design 2: Coming Soon", color: "#264de4" },
-    { title: "Design 3: Coming Soon", color: "#f0db4f" },
-    { title: "Design 4: Coming Soon", color: "#61fb9c" },
+    { title: "Design 1: Service Site", color: "#e34c26", link: "https://nikk4886.github.io/king-maker-site/" },
+    { title: "Design 2: Coming Soon", color: "#264de4", link: "https://nikk4886.github.io/MyPortfolio-/" },
+    { title: "Design 3: Coming Soon", color: "#f0db4f", link: "https://nikk4886.github.io/MyPortfolio-/" },
+    { title: "Design 4: Coming Soon", color: "#61fb9c", link: "https://nikk4886.github.io/MyPortfolio-/" },
   ];
 
   return (
@@ -29,6 +29,7 @@ function App() {
               key={index}
               className="grid-box"
               style={{ backgroundColor: box.color }}
+              onClick={() => window.location.href = box.link}
             >
                 <h2>{box.title}</h2>
               </div>
