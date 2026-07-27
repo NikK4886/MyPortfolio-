@@ -8,8 +8,8 @@ function App() {
   const boxes = [
     { title: "Design 1: Service Site", color: "#e34c26", link: "https://nikk4886.github.io/king-maker-site/" },
     { title: "Design 2: Memory Game", color: "#264de4", link: "https://nikk4886.github.io/memory-game/" },
-    { title: "Design 3: Coming Soon", color: "#f0db4f", link: "https://nikk4886.github.io/watered-down-store/" },
-    { title: "Design 4: Coming Soon", color: "#61fb9c", link: "https://nikk4886.github.io/Bilingual-Interactive-Dashboard-/" },
+    { title: "Design 3: E-commerce", color: "#f0db4f", link: "https://nikk4886.github.io/watered-down-store/" },
+    { title: "Design 4: Dashboard", color: "#61fb9c", link: "https://nikk4886.github.io/Bilingual-Interactive-Dashboard-/" },
   ];
 
   return (
